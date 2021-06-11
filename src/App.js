@@ -52,17 +52,16 @@ export default function App() {
       </div>
       <hr />
 
-      <div>
+      <div className="recomeding">
         <ul>
           {places[selectedplace].map(function (site) {
             return (
               <li
                 style={{
                   listStyle: "none",
-                  padding: "1rem",
+                  padding: "5px",
                   border: "1px solid black",
-                  width: "70%",
-                  margin: "1rem 0rem",
+                  margin: "5px",
                   borderRadius: "0.5rem"
                 }}
                 key={site.name}
