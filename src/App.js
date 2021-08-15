@@ -11,11 +11,13 @@ const places = {
 
   Iceland: [
     { name: "Gullfoss falls", rating: "4.8/5" },
-    { name: "Blue lagoon Iceland", rating: "4.6/5" }
+    { name: "Blue lagoon Iceland", rating: "4.6/5" },
+    { name:"Hallgrimskirkja",rating:"4.5/5"}
   ],
   switzerland: [
     { name: "Mount pilatus", rating: "4.8/5" },
-    { name: "Titlis", rating: "4.7/5" }
+    { name: "Titlis", rating: "4.7/5" },
+    {name:"Museum Kleines Klingental",rating:"4.6/5"}
   ]
 };
 
